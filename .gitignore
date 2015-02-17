@@ -1,3 +1,6 @@
 bin
 target
 *.log
+*.class
+*.jar
+hs_err_pid*
