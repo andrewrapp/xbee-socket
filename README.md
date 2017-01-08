@@ -1,5 +1,7 @@
 # xbee-socket
 
+This software is now included in xbee-api as of the 0.9.2 release. I will delete the repo soon
+
 Socket client for https://code.google.com/p/xbee-api/. While xbee-api requires a dedicated serial connection to the radio, this uses a socket connection to https://github.com/andrewrapp/xbee-serial-server to send and receive packets. This allows several applications to share the same radio (coordinator).
   
   Example: Connect to xbee-serial-server on host pi, port 9000 and send the AI AT commmand
